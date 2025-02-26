@@ -1,7 +1,7 @@
 # Temperature Advice Program
 
 ## Purpose
-The Temperature Advice program is designed to give the user suggestions on what to wear based on the current temperature (in Celsius) they input. Depending on the temperature, the program will recommend either wearing a jacket, short-sleeves, or staying cool.
+The **Temperature Advice** program is designed to give the user suggestions on what to wear based on the current temperature (in Celsius) they input. Depending on the temperature, the program will recommend either wearing a jacket, short-sleeves, or staying cool.
 
 ## Creator
 - **Name:** Rohan Singh
@@ -19,4 +19,13 @@ This program prompts the user to input the current temperature in Celsius. It th
    - Between 10°C and 25°C: The user is advised to wear short-sleeves.
    - Above 25°C: The user is advised to stay cool.
 
+## Requirements
+- Python 3.x or later
 
+## Usage
+1. Clone this repository to your local machine or download the script.
+2. You can run the program using Python from the command line or terminal.
+
+### To run interactively (user input):
+```bash
+python Temperature_Advice.py
