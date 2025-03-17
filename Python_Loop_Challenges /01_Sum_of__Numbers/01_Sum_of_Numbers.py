@@ -7,9 +7,14 @@
 # We will ask the user for a number 'n' and then calculate the sum of all numbers from 1 to 'n'.
 
 # Step 1: Ask the user to enter a number
+import time
+
 print("Welcome to the Sum of Numbers program!")
 n = int(input(
     "Please enter a positive integer 'n' to calculate the sum of all numbers from 1 to 'n': "))  # Convert input to an integer
+
+
+start_time = time.perf_counter()
 
 # Step 2: Check if the number is valid
 if n <= 0:
@@ -27,3 +32,7 @@ else:
 
     # Step 5: Display the result
     print(f"\nThe total sum of all numbers from 1 to {n} is {sum_of_numbers}.")  # Output the final sum
+
+end_time = time.perf_counter()
+
+print(f"\nExecution time: {end_time - start_time:.4f} seconds")
