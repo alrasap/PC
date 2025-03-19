@@ -4,7 +4,7 @@
 This Python program generates a random number between 1 and 10 and keeps asking the user to guess the number until they guess it correctly. The program provides feedback after each guess, letting the user know if they're correct or not.
 
 ### Created by:
-Rohan Singh  
+Rohan  
 Student Number: 931006  
 Date: March 17, 2025
 

@@ -7,7 +7,7 @@ The **even_or_odd.py** program asks the user to input a number and determines wh
 The purpose of this program is to allow users to easily determine whether a given number is even or odd. It is a simple way to demonstrate basic conditional statements and user input handling in Python.
 
 ## Creator
-- **Name:** Rohan Singh
+- **Name:** Rohan 
 - **Student Number:** 931006
 - **Date Created:** February 26, 2025
 

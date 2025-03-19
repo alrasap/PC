@@ -7,7 +7,7 @@ The **01_sum_of_numbers.py** program takes a number `n` as input from the user a
 The purpose of this program is to demonstrate how a `for` loop can be used to calculate the sum of numbers from 1 to a given number. It can be used to understand basic loops, user input, and arithmetic operations in Python.
 
 ## Creator
-- **Name:** Rohan Singh
+- **Name:** Rohan 
 - **Student Number:** 931006
 - **Date Created:** March 6, 2025
 

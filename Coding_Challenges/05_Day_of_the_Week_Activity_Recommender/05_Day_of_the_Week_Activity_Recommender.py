@@ -1,6 +1,6 @@
 # Day of the Week Activity Recommender
 # Purpose: This program asks the user for the current day of the week and suggests an activity based on the day.
-# Made by: Rohan Singh, Student Number 931006
+# Made by: Rohan , Student Number 931006
 # Date: march 3, 2025
 # This code was based on a tutorial and further worked on by me. I used basic concepts like conditionals (if-else statements).
 

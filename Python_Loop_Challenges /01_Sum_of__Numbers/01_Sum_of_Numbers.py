@@ -1,6 +1,6 @@
 # Program Name: Sum of Numbers
 # Purpose: This program takes a number 'n' from the user and calculates the sum of all numbers from 1 to 'n' using a for loop.
-# Creator: Rohan Singh
+# Creator: Rohan
 # Student Number: 931006
 # Date: March 6, 2025
 

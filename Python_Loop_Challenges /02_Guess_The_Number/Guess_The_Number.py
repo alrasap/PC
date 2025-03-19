@@ -1,6 +1,6 @@
 # Program Name: Guess the Number
 # Purpose: This program generates a random number between 1 and 10 and keeps asking the user to guess it using a while loop until they guess correctly.
-# Creator: Rohan Singh
+# Creator: Rohan
 # Student Number: 931006
 # Date: March 17, 2025
 

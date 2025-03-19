@@ -1,6 +1,6 @@
 # Program Name: Skipping Even Numbers
 # Purpose: This program prints numbers from 1 to 10 but skips even numbers using the continue statement.
-# Creator: Rohan Singh
+# Creator: Rohan
 # Student Number: 931006
 # Date: March 17, 2025
 

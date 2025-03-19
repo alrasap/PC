@@ -1,6 +1,6 @@
 # Program Name: Countdown Timer
 # Purpose: This program counts down from 10 to 1. If the user types "stop", the countdown stops.
-# Creator: Rohan Singh
+# Creator: Rohan
 # Student Number: 931006
 # Date: March 10, 2025
 

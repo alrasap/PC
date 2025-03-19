@@ -1,7 +1,7 @@
 '''
 Program Name: student grading
 Purpose: This program asks the user for a score and gives a grade.
-Creator: Rohan, Singh (Student Number: 931006)
+Creator: Rohan,  (Student Number: 931006)
 Date: February 24, 2025
 '''
 # Ask the user to type a score (a number from 0 to 100)

@@ -4,7 +4,7 @@
 The **Temperature Advice** program is designed to give the user suggestions on what to wear based on the current temperature (in Celsius) they input. Depending on the temperature, the program will recommend either wearing a jacket, short-sleeves, or staying cool.
 
 ## Creator
-- **Name:** Rohan Singh
+- **Name:** Rohan 
 - **Student Number:** 931006
 - **Date:** February 25, 2025
 

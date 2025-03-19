@@ -7,7 +7,7 @@ The **student_grading.py** program takes a student's score (out of 100) and dete
 The purpose of this program is to provide a simple way to input a student's score and get their corresponding grade. It can be used to grade students in an academic setting or for any other scoring system.
 
 ## Creator
-- **Name:** Rohan Singh
+- **Name:** Rohan 
 - **Student Number:** 931006
 - **Date Created:** February 24, 2025
 

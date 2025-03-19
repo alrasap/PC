@@ -4,7 +4,7 @@
 This Python program starts a countdown from 10 and counts down to 1. The countdown continues until the user types "stop", at which point it will stop and print a message.
 
 ### Created by:
-Rohan Singh  
+Rohan
 Student Number: 931006  
 Date: March 10, 2025  
 

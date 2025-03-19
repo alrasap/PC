@@ -1,6 +1,6 @@
 # Program Name: Temperature Advice
 # Purpose: This program takes the current temperature from the user and gives advice on what to wear based on the temperature.
-# Creator: Rohan Singh
+# Creator: Rohan
 # Student Number: 931006
 # Date: February 25, 2025
 

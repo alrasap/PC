@@ -6,7 +6,7 @@ This Python program asks the user to input the current day of the week
  It's designed to help people find ideas for activities based on the day of the week.
 
 ### Created by:
- Rohan Singh  
+ Rohan   
  Student Number: 931006  
  Date: February 24, 2025
 

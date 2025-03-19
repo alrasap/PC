@@ -1,6 +1,6 @@
 # Even or Odd Number Checker
 # Purpose: This Python program asks the user for a number and tells them if the number is even or odd.
-# Made by: Rohan Singh
+# Made by: Rohan
 # Student number: 931006
 # Date: February 26, 2025
 #

@@ -5,7 +5,7 @@
 The **Voting Eligibility Checker** program is designed to check if a person is eligible to vote based on their age. If the person is **18 years or older**, they are eligible to vote. Otherwise, they are not eligible.
 
 ## **Creator**
-- **Name:** Rohan Singh
+- **Name:** Rohan 
 - **Student Number:** 931006
 - **Date:** February 24, 2025
 

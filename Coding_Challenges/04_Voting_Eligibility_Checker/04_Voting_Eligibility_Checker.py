@@ -1,7 +1,7 @@
 '''
 # Voting Eligibility Checker
 # Purpose: This Python program asks the user for their age and checks if they are eligible to vote.
-# Made by: Rohan Singh
+# Made by: Rohan
 # Student Number: 931006
 # Date: February 27, 2025
 
