@@ -1,0 +1,72 @@
+// ====================================================
+// Barrier Control System using Ultrasonic Sensor + Servo
+// The servo acts as a gate/barrier that opens when
+// an object is detected within 6 cm of the sensor.
+// ====================================================
+
+#include <Servo.h>  // Include the Servo library
+
+// Pin setup for ultrasonic sensor
+const int trigPin = 9;     // TRIG pin of HC-SR04
+const int echoPin = 10;    // ECHO pin of HC-SR04
+
+// Pin for servo motor
+const int servoPin = 6;
+
+// Create a Servo object to control the servo motor
+Servo barrierServo;
+
+// Variables to store sensor reading
+long duration;     // Time taken for echo to return
+int distance;      // Calculated distance in cm
+
+void setup() {
+  Serial.begin(9600);             // Start serial monitor for debugging
+  
+  pinMode(trigPin, OUTPUT);       // Set TRIG pin as output
+  pinMode(echoPin, INPUT);        // Set ECHO pin as input
+
+  barrierServo.attach(servoPin);  // Connect servo to defined pin
+  barrierServo.write(0);          // Start with barrier closed (angle 0)
+}
+
+void loop() {
+  // --------- Measure Distance ---------
+
+  // Clear the TRIG pin
+  digitalWrite(trigPin, LOW);
+  delayMicroseconds(2);
+
+  // Send a 10µs HIGH pulse to TRIG to trigger the ultrasonic burst
+  digitalWrite(trigPin, HIGH);
+  delayMicroseconds(10);
+  digitalWrite(trigPin, LOW);
+
+  // Measure the time it takes for the echo to return to ECHO pin
+  duration = pulseIn(echoPin, HIGH);
+
+  // Convert duration to distance in centimeters
+  // Speed of sound = 0.034 cm/µs, divide by 2 because it's round trip
+  distance = duration * 0.034 / 2;
+
+  // Print the distance to the Serial Monitor
+  Serial.print("Distance: ");
+  Serial.print(distance);
+  Serial.println(" cm");
+
+  // --------- Barrier Logic ---------
+
+  // If an object is detected within 6 cm, open the barrier
+  if (distance <= 6 && distance > 0) {
+    barrierServo.write(90);   // Rotate servo to 90° to open barrier
+    Serial.println("Barrier: OPEN");
+  } 
+  // If the object is not close, keep the barrier closed
+  else {
+    barrierServo.write(0);    // Rotate servo back to 0° to close barrier
+    Serial.println("Barrier: CLOSED");
+  }
+
+  // Wait a short time before next reading
+  delay(200);  // 200 milliseconds
+}
